@@ -1,0 +1,9 @@
+name: GitHub Actions Hello-World
+
+on: [push]
+
+jobs:
+  echo_hello_world:
+    runs-on: ubuntu-;atest
+    steps:
+      - run: echo "Hello, World!!"
